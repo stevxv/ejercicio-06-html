@@ -1,0 +1,14 @@
+button:hover {
+    color: white;
+    background-color: green;
+}
+
+button::first-line {
+    visibility: hidden;
+}
+
+button::after {
+    content: '¡Hecho!';
+    float: left;
+}
+
